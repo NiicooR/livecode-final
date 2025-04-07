@@ -1,13 +1,3 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+In the ProposalContract my idea was to create the structure of the proposal and i was only allowed to 
+define the struct and the mapping, what is missing is a method to get and return all the proposals in the maping
+then some other hardhat configurations are needed in order to deploy everything on a testnet
